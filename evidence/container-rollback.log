@@ -1,0 +1,10 @@
+INFO:     172.17.0.1:37728 - "GET /health HTTP/1.1" 200 OK
+INFO:     172.17.0.1:37738 - "GET /health HTTP/1.1" 200 OK
+INFO:     172.17.0.1:37744 - "GET /model-info HTTP/1.1" 200 OK
+INFO:     172.17.0.1:37758 - "POST /predict HTTP/1.1" 200 OK
+INFO:     172.17.0.1:37770 - "POST /predict HTTP/1.1" 200 OK
+INFO:     172.17.0.1:37786 - "POST /predict HTTP/1.1" 200 OK
+INFO:     172.17.0.1:37794 - "POST /predict HTTP/1.1" 200 OK
+INFO:     172.17.0.1:37808 - "POST /predict HTTP/1.1" 200 OK
+INFO:     172.17.0.1:37820 - "POST /predict HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:50918 - "GET /health HTTP/1.1" 200 OK

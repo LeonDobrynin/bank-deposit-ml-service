@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-18T05:52:32.616254+00:00",
+  "stages": [
+    {
+      "url": "http://127.0.0.1:18078",
+      "health": {
+        "status": "ok",
+        "model_loaded": true,
+        "model_version": "1.0.0"
+      },
+      "threshold": 0.5,
+      "five_predictions": [
+        {
+          "deposit": 0,
+          "probability": 0.021637262611127115,
+          "threshold": 0.5,
+          "model_version": "1.0.0"
+        },
+        {
+          "deposit": 0,
+          "probability": 0.05761256300237058,
+          "threshold": 0.5,
+          "model_version": "1.0.0"
+        },
+        {
+          "deposit": 1,
+          "probability": 0.5625683856831446,
+          "threshold": 0.5,
+          "model_version": "1.0.0"
+        },
+        {
+          "deposit": 1,
+          "probability": 0.564973252804638,
+          "threshold": 0.5,
+          "model_version": "1.0.0"
+        },
+        {
+          "deposit": 1,
+          "probability": 0.5923774172410464,
+          "threshold": 0.5,
+          "model_version": "1.0.0"
+        }
+      ],
+      "invalid_status": 422,
+      "passed": true,
+      "stage": "initial",
+      "container_id": "a8ad7ad7d0b40149423faa05d884ef3ed1b03e286e7708768ae00d193e583199",
+      "image_id": "sha256:b8dfb1ee20599f613f836b8809e0777c8a0567ea2442dfb9a16305e8dc8b2aac",
+      "docker_health": "healthy"
+    },
+    {
+      "url": "http://127.0.0.1:18078",
+      "health": {
+        "status": "ok",
+        "model_loaded": true,
+        "model_version": "1.1.0"
+      },
+      "threshold": 0.1,
+      "five_predictions": [
+        {
+          "deposit": 0,
+          "probability": 0.021637262611127115,
+          "threshold": 0.1,
+          "model_version": "1.1.0"
+        },
+        {
+          "deposit": 0,
+          "probability": 0.05761256300237058,
+          "threshold": 0.1,
+          "model_version": "1.1.0"
+        },
+        {
+          "deposit": 1,
+          "probability": 0.5625683856831446,
+          "threshold": 0.1,
+          "model_version": "1.1.0"
+        },
+        {
+          "deposit": 1,
+          "probability": 0.564973252804638,
+          "threshold": 0.1,
+          "model_version": "1.1.0"
+        },
+        {
+          "deposit": 1,
+          "probability": 0.5923774172410464,
+          "threshold": 0.1,
+          "model_version": "1.1.0"
+        }
+      ],
+      "invalid_status": 422,
+      "passed": true,
+      "stage": "upgrade",
+      "container_id": "00621045487e1a873bd1417a270deaa195fcf5923949c879499c5b127430d1aa",
+      "image_id": "sha256:8a24500aaa408d8975e326f0c1105e71eb38cb12e68d090932f476f43d9d0965",
+      "docker_health": "healthy"
+    },
+    {
+      "url": "http://127.0.0.1:18078",
+      "health": {
+        "status": "ok",
+        "model_loaded": true,
+        "model_version": "1.0.0"
+      },
+      "threshold": 0.5,
+      "five_predictions": [
+        {
+          "deposit": 0,
+          "probability": 0.021637262611127115,
+          "threshold": 0.5,
+          "model_version": "1.0.0"
+        },
+        {
+          "deposit": 0,
+          "probability": 0.05761256300237058,
+          "threshold": 0.5,
+          "model_version": "1.0.0"
+        },
+        {
+          "deposit": 1,
+          "probability": 0.5625683856831446,
+          "threshold": 0.5,
+          "model_version": "1.0.0"
+        },
+        {
+          "deposit": 1,
+          "probability": 0.564973252804638,
+          "threshold": 0.5,
+          "model_version": "1.0.0"
+        },
+        {
+          "deposit": 1,
+          "probability": 0.5923774172410464,
+          "threshold": 0.5,
+          "model_version": "1.0.0"
+        }
+      ],
+      "invalid_status": 422,
+      "passed": true,
+      "stage": "rollback",
+      "container_id": "c238b4208f263df8cd571a48a969960792b6dabcab2ef5fd4a8a2d5b7bcb8b15",
+      "image_id": "sha256:b8dfb1ee20599f613f836b8809e0777c8a0567ea2442dfb9a16305e8dc8b2aac",
+      "docker_health": "healthy"
+    }
+  ],
+  "local": {
+    "url": "http://127.0.0.1:18077",
+    "health": {
+      "status": "ok",
+      "model_loaded": true,
+      "model_version": "1.1.0"
+    },
+    "threshold": 0.1,
+    "five_predictions": [
+      {
+        "deposit": 0,
+        "probability": 0.021637262611127115,
+        "threshold": 0.1,
+        "model_version": "1.1.0"
+      },
+      {
+        "deposit": 0,
+        "probability": 0.05761256300237058,
+        "threshold": 0.1,
+        "model_version": "1.1.0"
+      },
+      {
+        "deposit": 1,
+        "probability": 0.5625683856831446,
+        "threshold": 0.1,
+        "model_version": "1.1.0"
+      },
+      {
+        "deposit": 1,
+        "probability": 0.564973252804638,
+        "threshold": 0.1,
+        "model_version": "1.1.0"
+      },
+      {
+        "deposit": 1,
+        "probability": 0.5923774172410464,
+        "threshold": 0.1,
+        "model_version": "1.1.0"
+      }
+    ],
+    "invalid_status": 422,
+    "passed": true
+  },
+  "local_container_parity": true,
+  "rollback_verified": true
+}

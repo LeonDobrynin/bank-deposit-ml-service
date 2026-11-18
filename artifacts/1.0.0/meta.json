@@ -1,0 +1,49 @@
+{
+  "trained_at": "2026-11-18T05:49:53.665466+00:00",
+  "target": "y=yes (term deposit subscription)",
+  "features": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "pdays",
+    "previous",
+    "poutcome"
+  ],
+  "data_version": "uci-bank-additional-full",
+  "data_sha256": "74adfc578bf77a7ff4bb1ba4a9f8709d9e3c6907342959c2c8416847e0afb4d8",
+  "raw_rows": 41188,
+  "duplicates_removed": 12,
+  "split": {
+    "train": 28823,
+    "validation": 6176,
+    "test": 6177
+  },
+  "test_evaluated": false,
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.7.2",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "joblib": "1.5.2"
+  },
+  "metrics": {
+    "validation_precision_at_10pct": 0.2106969205834684,
+    "validation_recall_at_10pct": 0.197869101978691,
+    "validation_average_precision": 0.164672772775174,
+    "selected_top10": 617,
+    "true_positives_top10": 130
+  },
+  "model_version": "1.0.0",
+  "threshold": 0.5,
+  "release_change": "decision threshold only; identical trained weights",
+  "model_sha256": "fe264ff218ae948b76ddec32bc009524c3c388d0e63cf591f4e7204e59705ea7",
+  "threshold_metrics": {
+    "selected": 16,
+    "precision": 0.1875,
+    "recall": 0.0045662100456621
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "features": {
+      "age": 53,
+      "job": "housemaid",
+      "marital": "married",
+      "education": "basic.6y",
+      "default": "unknown",
+      "housing": "unknown",
+      "loan": "unknown",
+      "pdays": 999,
+      "previous": 0,
+      "poutcome": "nonexistent"
+    },
+    "probability": 0.021637262611127115,
+    "deposit": 0
+  },
+  {
+    "features": {
+      "age": 29,
+      "job": "blue-collar",
+      "marital": "married",
+      "education": "basic.9y",
+      "default": "no",
+      "housing": "no",
+      "loan": "no",
+      "pdays": 999,
+      "previous": 0,
+      "poutcome": "nonexistent"
+    },
+    "probability": 0.05761256300237058,
+    "deposit": 0
+  },
+  {
+    "features": {
+      "age": 34,
+      "job": "admin.",
+      "marital": "single",
+      "education": "high.school",
+      "default": "no",
+      "housing": "yes",
+      "loan": "no",
+      "pdays": 12,
+      "previous": 1,
+      "poutcome": "success"
+    },
+    "probability": 0.5625683856831446,
+    "deposit": 1
+  },
+  {
+    "features": {
+      "age": 25,
+      "job": "technician",
+      "marital": "married",
+      "education": "university.degree",
+      "default": "no",
+      "housing": "yes",
+      "loan": "no",
+      "pdays": 12,
+      "previous": 1,
+      "poutcome": "success"
+    },
+    "probability": 0.564973252804638,
+    "deposit": 1
+  },
+  {
+    "features": {
+      "age": 35,
+      "job": "admin.",
+      "marital": "single",
+      "education": "university.degree",
+      "default": "no",
+      "housing": "yes",
+      "loan": "no",
+      "pdays": 12,
+      "previous": 1,
+      "poutcome": "success"
+    },
+    "probability": 0.5923774172410464,
+    "deposit": 1
+  }
+]

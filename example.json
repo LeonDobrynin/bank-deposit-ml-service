@@ -1,0 +1,12 @@
+{
+  "age": 35,
+  "job": "admin.",
+  "marital": "single",
+  "education": "university.degree",
+  "default": "no",
+  "housing": "yes",
+  "loan": "no",
+  "pdays": 12,
+  "previous": 1,
+  "poutcome": "success"
+}
